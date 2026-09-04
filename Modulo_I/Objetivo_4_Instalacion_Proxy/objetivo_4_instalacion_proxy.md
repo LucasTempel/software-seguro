@@ -1,5 +1,5 @@
-![](Captura de pantalla 2026-09-04 181527.png)
-![](Captura de pantalla 2026-09-04 181610.png)
+![](cap1.png)
+![](cap2.png)
 
 
 # Qué es un proxy?
