@@ -1,5 +1,5 @@
-![](C:\Users\Lucas\Pictures\Screenshots\Captura de pantalla 2026-09-04 181527.png)
-![](C:\Users\Lucas\Pictures\Screenshots\Captura de pantalla 2026-09-04 181610.png)
+![](Captura de pantalla 2026-09-04 181527.png)
+![](Captura de pantalla 2026-09-04 181610.png)
 
 
 # Qué es un proxy?
