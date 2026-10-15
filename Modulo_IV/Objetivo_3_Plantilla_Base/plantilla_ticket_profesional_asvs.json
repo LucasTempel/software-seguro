@@ -1,0 +1,110 @@
+{
+  "packageType": "asvs-template-package",
+  "version": "1.0",
+  "exportedAt": "2026-10-15T17:32:09.096938Z",
+  "template": {
+    "id": "5e1f493b-8187-4263-9942-d5afe39274db",
+    "name": "Plantilla Profesional de Hallazgo (Ticket)",
+    "description": "Plantilla completa con Resumen Ejecutivo, Ficha Técnica, CVSS v3.1, Detalles Técnicos, PoC paso a paso y Remediación.",
+    "projectIds": [],
+    "isPrivate": true,
+    "rows": [
+      {
+        "id": "ba68ba15-87fd-4dbe-92b5-40afe4a1b026",
+        "fields": [
+          {
+            "id": "ee8fb7fd-1054-447b-b672-d80c8218abb3",
+            "name": "Título de la Vulnerabilidad",
+            "type": "text",
+            "isTitleField": true,
+            "placeholder": "Ej: Fuga de información confidencial mediante IDOR en endpoint de facturación"
+          },
+          {
+            "id": "75d95f6f-605d-4a71-b26d-98e3bed8ec0d",
+            "name": "Severidad Global",
+            "type": "select",
+            "options": [
+              "Crítica",
+              "Alta",
+              "Media",
+              "Baja",
+              "Informativa"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "42ff014f-ca04-4ddc-a5df-edc05030c46d",
+        "fields": [
+          {
+            "id": "1b37d6bc-a7b2-4ffb-85a4-70bfbe512063",
+            "name": "Activo / Endpoint Afectado",
+            "type": "text",
+            "placeholder": "https://app.ejemplo.com/api/v1/recurso"
+          },
+          {
+            "id": "b61d47ef-3a25-4d99-ac3c-a139f122dd85",
+            "name": "Clasificación CWE",
+            "type": "text",
+            "placeholder": "CWE-639 / CWE-89"
+          }
+        ]
+      },
+      {
+        "id": "74fa96f0-87b9-459e-ab46-a43ed2999423",
+        "fields": [
+          {
+            "id": "d7ccd64c-5d8d-44cf-bc4a-fdca26225557",
+            "name": "Métrica CVSS v3.1",
+            "type": "cvss"
+          }
+        ]
+      },
+      {
+        "id": "88088e35-0020-489a-84ee-65e4fcb4bf41",
+        "fields": [
+          {
+            "id": "10a41510-32fd-4670-840e-4aae096bb623",
+            "name": "Resumen Ejecutivo (Para Directivos)",
+            "type": "textarea",
+            "placeholder": "Descripción de alto nivel del riesgo, impacto en el negocio (económico, legal, reputacional) y conclusión ejecutiva."
+          }
+        ]
+      },
+      {
+        "id": "25a3cca9-78a5-4297-b829-fb1030747b7f",
+        "fields": [
+          {
+            "id": "834a5fb4-d970-4e43-89d7-3326fc901177",
+            "name": "Detalles Técnicos y Causa Raíz",
+            "type": "textarea",
+            "placeholder": "Explicación técnica del fallo: por qué ocurre en el código/arquitectura y componentes involucrados."
+          }
+        ]
+      },
+      {
+        "id": "a06caf8d-c585-46f9-b8fc-bb10a8bcba7d",
+        "fields": [
+          {
+            "id": "a20800d0-a789-4301-9158-872a90a9aeb3",
+            "name": "Prueba de Concepto (PoC) Paso a Paso",
+            "type": "textarea",
+            "placeholder": "Precondiciones, pasos numerados exactos para reproducir, payloads HTTP y evidencia obtenida."
+          }
+        ]
+      },
+      {
+        "id": "6b1bb367-89aa-4220-9e77-ab7a95c7d5e7",
+        "fields": [
+          {
+            "id": "04038922-9959-466d-9899-a3cd733078bb",
+            "name": "Recomendaciones de Remediación",
+            "type": "textarea",
+            "placeholder": "Solución de raíz, ejemplo de código/configuración segura, mitigación temporal y referencias ASVS/OWASP."
+          }
+        ]
+      }
+    ],
+    "fields": []
+  }
+}
