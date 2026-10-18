@@ -1,6 +1,3 @@
-# Objetivo 1: Auditoría de Cookies y Banderas de Seguridad
-
-## 1. Preguntas Teóricas
 
 ### Bandera `HttpOnly`
 La bandera `HttpOnly` previene que las cookies sean leídas, modificadas o filtradas mediante scripts del lado del cliente ejecutados en el navegador (específicamente a través de la propiedad `document.cookie` de JavaScript).
